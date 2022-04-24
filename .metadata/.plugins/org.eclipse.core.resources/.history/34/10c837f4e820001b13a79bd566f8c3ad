@@ -1,0 +1,22 @@
+package com.practice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.practice.repository.CustomerRepo;
+
+@SpringBootApplication
+public class SpringDataJpaFindByApplication {
+
+	public static void main(String[] args) 
+	{
+		ConfigurableApplicationContext context = SpringApplication.run(SpringDataJpaFindByApplication.class, args);
+	    CustomerRepo repo = context.getBean(CustomerRepo.class);
+	    System.out.println(repo.getClass().getName());
+	    
+	    
+	
+	}
+
+}

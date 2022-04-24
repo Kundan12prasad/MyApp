@@ -1,0 +1,8 @@
+package com.ashokit.converters;
+
+import com.ashokit.bindings.Customer;
+public class Deserializer
+{
+	
+
+}

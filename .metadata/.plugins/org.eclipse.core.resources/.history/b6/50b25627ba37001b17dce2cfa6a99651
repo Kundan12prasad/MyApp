@@ -1,0 +1,15 @@
+package com.ashokit.converters;
+import com.ashokit.bindings.Customer;
+import java.io.File;
+
+public class Deserializer
+{
+	public static void main(String [] args) throws Exception
+	{
+		File f=new File("customer.json")
+		
+	}
+	
+	
+
+}

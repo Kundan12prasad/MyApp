@@ -1,0 +1,8 @@
+package com.practice.restcontroller;
+
+@RestController
+public class TicketBookRestController
+{
+	
+
+}

@@ -1,0 +1,9 @@
+chatbook:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8085,localhost:8087,localhost:8089
+    ServerListRefreshInterval: 2000
+ 
+server:
+  port: 9095

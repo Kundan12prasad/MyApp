@@ -1,0 +1,15 @@
+package com.practice.bindings;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class Book
+{
+
+	private String isbn;
+	private String name;
+	private String author;
+	private String price;
+	
+	
+}

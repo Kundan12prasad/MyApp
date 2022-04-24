@@ -1,0 +1,9 @@
+package com.practice.bindings;
+
+public class Customer 
+{
+	private Integer customerId;
+	private String customerName;
+	private String customerLocation;
+
+}

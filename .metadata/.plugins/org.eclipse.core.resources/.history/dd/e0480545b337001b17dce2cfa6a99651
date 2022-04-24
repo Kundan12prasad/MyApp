@@ -1,0 +1,9 @@
+package com.ashokit.bindings;
+
+public class Customer 
+{
+	private Integer customerId;
+	private String customerName;
+	private String customerEmail;
+
+}

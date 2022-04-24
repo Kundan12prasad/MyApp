@@ -1,0 +1,17 @@
+package com.ashokit.converters;
+
+import com.ashokit.bindings.Customer;
+
+public class Serializer 
+{
+	public static void main(String args[])
+	{
+		Customer c=new Customer();
+		c.setCustomerId(100);
+		c.setCustomerName("Kundan");
+		c.setCustomerEmail("kundanprasad29@gmail.com");
+		
+		
+	}
+
+}

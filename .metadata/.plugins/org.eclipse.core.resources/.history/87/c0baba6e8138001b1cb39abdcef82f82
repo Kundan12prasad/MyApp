@@ -1,0 +1,16 @@
+package com.practice.converter;
+
+import com.practice.bindings.JAXB_api.Customer;
+
+public class Marshalling
+{
+	public static void main(String[] args) 
+	{
+		Customer c=new Customer();
+		c.setCustomerId(101);
+		c.setCustomerName("Kundan Prasad");
+		c.setCustomerEmail("kundanprasad29@gmail.com");
+	}
+
+
+}

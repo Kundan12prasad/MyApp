@@ -1,0 +1,5 @@
+package com.practice.restcontroller;
+
+public class CustomerController {
+
+}

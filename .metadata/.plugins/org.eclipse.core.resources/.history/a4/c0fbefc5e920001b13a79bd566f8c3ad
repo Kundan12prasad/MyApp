@@ -1,0 +1,45 @@
+package com.practice;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.practice.entity.CustomerEntity;
+import com.practice.repository.CustomerRepo;
+
+@SpringBootApplication
+public class SpringDataJpaFindByApplication {
+
+	public static void main(String[] args) 
+	{
+		ConfigurableApplicationContext context = SpringApplication.run(SpringDataJpaFindByApplication.class, args);
+	    CustomerRepo repo = context.getBean(CustomerRepo.class);
+	    System.out.println(repo.getClass().getName());
+	    
+	    //creating entity class
+	    CustomerEntity entity1=new CustomerEntity();
+	     //entity.setCustomerId(500);
+	     entity1.setCustomerName("Kundan");
+	     entity1.setCustomerEmail("kundan.p@gmail.com");	    
+	     
+	     CustomerEntity entity2=new CustomerEntity();
+	     entity2.setCustomerName("Anish");
+	     entity2.setCustomerEmail("Anish.s@gmail.com");
+	     
+	     CustomerEntity entity3=new CustomerEntity();
+	     entity3.setCustomerName("Abhishek");
+	     entity3.setCustomerEmail("Abhishek.y@gmail.com");
+	     
+	     
+	    
+	    
+	    
+	    //adding multiple data at a time (saveAll())
+	    List<CustomerEntity> allEntity=new ArrayList<CustomerEntity>();
+	
+	}
+
+}
